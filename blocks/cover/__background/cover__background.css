@@ -1,0 +1,12 @@
+.cover__background {
+	background-color: #2a2c2f;
+	opacity: 0.3;
+	z-index: 1;
+	width: 100%;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

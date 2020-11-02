@@ -1,6 +1,6 @@
-.photo-grid {
-	margin: 0 16px;
+.places {
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 12px;
+	gap: 49px;
+	padding-top: 64px;
 }
