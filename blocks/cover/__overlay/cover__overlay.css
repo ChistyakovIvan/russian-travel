@@ -1,5 +1,5 @@
 .cover__overlay {
-  background-color: #2a2c2f;
+	background-color: #2a2c2f;
 	opacity: 0.3;
 	z-index: 1;
 	width: 100%;
@@ -8,6 +8,13 @@
 	box-sizing: border-box;
 	position: absolute;
 	top: 0;
-  left: 0;
-  object-fit: cover;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	object-fit: cover;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
