@@ -1,8 +1,8 @@
 .cover__background {
 	background-image: url(../../../images/cover__background.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
 	min-height: 200px;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
@@ -11,4 +11,25 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.cover__background {
+		min-height: 480px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.cover__background {
+		min-height: 640px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.cover__background {
+		margin: 0 auto;
+		justify-content: center;
+		max-width: 1184px;
+		min-height: 740px;
+	}
 }
