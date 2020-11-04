@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 768px) {
 	.places {
-		padding: 88px 3.125vw;
+		padding: 88px 3.125vw 0;
 	}
 }

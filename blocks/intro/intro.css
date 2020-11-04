@@ -3,10 +3,14 @@
 	padding: 20vw 5vw 20vw;
 }
 
+@media screen and (max-width: 768px) {
+	.intro {
+		padding: 88px 3.125vw 88px;
+	}
+}
 
-@media screen and (max-width:768px) {
-
-  .intro {
-    padding: 88px 3.125vw 88px;
-  }
+@media screen and (max-width: 1024px) {
+	.intro {
+		padding: 8.98vw 4.6875vw;
+	}
 }
