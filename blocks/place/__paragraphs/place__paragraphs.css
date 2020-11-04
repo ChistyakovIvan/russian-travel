@@ -1,14 +1,27 @@
 .place__paragraphs {
-
 	min-width: 288px;
 	padding: 10vw 5vw 0;
-  margin: 0;
-  flex-basis: 50%;
+	margin: 0;
+	flex-basis: 50%;
 }
 
-
 @media screen and (min-width: 768px) {
-  .place__paragraphs {
-    padding: 0;
-  }
+	.place__paragraphs {
+		padding: 0;
+		flex-basis: 352px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.place__paragraphs {
+    flex-basis: 456px;
+    margin-left: 32px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.place__paragraphs {
+    flex-basis: 484px;
+    margin-left: 40px;
+	}
 }

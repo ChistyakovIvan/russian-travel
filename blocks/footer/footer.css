@@ -12,3 +12,15 @@
 		justify-content: space-between;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.footer {
+		padding: 92px 3.75vw 24px 3.75vw;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.footer {
+		padding: 92px 3.75vw 24px 3.75vw;
+	}
+}

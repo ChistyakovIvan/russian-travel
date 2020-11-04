@@ -4,8 +4,20 @@
 
 @media screen and (min-width: 768px) {
 	.place__website {
-    display: block;
-    margin-left: 20px;
+		display: block;
+		margin-left: 20px;
+		align-self: flex-end;
+	}
+}
 
+@media screen and (min-width: 1024px) {
+	.place__website {
+		margin-left: 32px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.place__website {
+		margin-left: 40px;
 	}
 }

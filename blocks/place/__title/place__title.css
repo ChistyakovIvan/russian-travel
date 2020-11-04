@@ -16,5 +16,16 @@
 		font-size: 42px;
 		line-height: 46px;
 		max-width: 340px;
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.place__title {
+		padding-left: 0;
+		flex-basis: 440px;
+		font-size: 72px;
+		line-height: 76px;
+		max-width: 440px;
 	}
 }

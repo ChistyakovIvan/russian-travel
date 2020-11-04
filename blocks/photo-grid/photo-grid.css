@@ -19,8 +19,15 @@
 @media screen and (min-width: 1024px) {
 	.photo-grid {
 		margin: 0 5vw;
-
 		grid-template-columns: repeat(3, 300px);
 		gap: 14px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.photo-grid {
+		margin: 0 5vw;
+		grid-template-columns: repeat(4, 284px);
+		gap: 16px;
 	}
 }

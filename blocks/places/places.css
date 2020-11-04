@@ -13,3 +13,10 @@
 		padding: 88px 3.125vw 0;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.places {
+		padding-top: 92px;
+		margin: 0 auto;
+	}
+}
