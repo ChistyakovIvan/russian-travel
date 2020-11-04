@@ -1,9 +1,18 @@
 .place__title {
+  max-width: 460px;
   font-weight: 900;
   font-style: normal;
   font-size: 32px;
   line-height: 35px;
   margin: 0;
-  padding-left: 16px;
+  padding-left: 3.125vw;
   margin-bottom: 32px;
+ }
+
+
+ @media screen and (min-width: 768px) {
+.place__title {
+  padding-left: 0
 }
+
+ }

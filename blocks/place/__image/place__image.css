@@ -3,4 +3,12 @@
 	min-height: 320px;
 	box-sizing: border-box;
 	align-items: center;
+	grid-area: image;
+}
+
+@media screen and (min-width: 768px) {
+	.place__image {
+		width: 340px;
+		min-height: 340px;
+	}
 }

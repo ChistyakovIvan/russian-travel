@@ -8,3 +8,9 @@
 	background-repeat: no-repeat;
 	margin: 40px auto 0;
 }
+
+@media screen and (min-width: 768px) {
+	.lead__image {
+		min-height: 480px;
+	}
+}

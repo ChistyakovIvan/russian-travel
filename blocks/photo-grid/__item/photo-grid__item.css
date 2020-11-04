@@ -1,7 +1,7 @@
 .photo-grid__item {
 	width: 100%;
-	min-width: 216px;
-	background-repeat: no-repeat;
-	display: block;
-	margin-bottom: 16px;
+	min-height: 216px;
+
+	object-fit: fill;
+	align-items: center;
 }

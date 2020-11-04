@@ -4,5 +4,11 @@
 	line-height: 14px;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
-	margin: 8px 0 0 16px;
+	margin: 8px 0 0 5vw;
+}
+
+@media screen and (min-width: 768px) {
+	.lead__caption {
+		margin: 8px 0 0 3.125vw;
+	}
 }

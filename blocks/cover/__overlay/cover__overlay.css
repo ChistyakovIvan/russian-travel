@@ -15,6 +15,6 @@
 }
 
 .cover__overlay:hover {
-  opacity: 0.8;
-  cursor: pointer;
+	opacity: 0.8;
+	cursor: pointer;
 }
