@@ -3,4 +3,6 @@
 	flex-flow: row;
 	flex-wrap: nowrap;
 	align-items: center;
+  max-width: 956px;
+  
 }
