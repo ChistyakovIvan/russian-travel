@@ -16,13 +16,10 @@
 	}
 }
 
-
 @media screen and (min-width: 1024px) {
 	.place__paragraph {
 		margin-bottom: 27px;
-	}
-
-	.place__paragraph:last-of-type {
-		margin: 0;
+		font-size: 18px;
+		line-height: 29.34px;
 	}
 }

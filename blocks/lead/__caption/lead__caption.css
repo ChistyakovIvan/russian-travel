@@ -13,7 +13,7 @@
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	.lead__caption {
 		margin: 8px 0 0 4.6875vw;
 	}
@@ -22,5 +22,11 @@
 @media screen and (min-width: 1280px) {
 	.lead__caption {
 		margin: 8px 0 0 11.5625vw;
+	}
+}
+
+@media screen and (min-width: 2560px) {
+	.lead__caption {
+		margin: 8px 0 0 30.78125vw;
 	}
 }

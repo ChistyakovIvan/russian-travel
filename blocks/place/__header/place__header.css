@@ -1,7 +1,6 @@
 .place__header {
-display: flex;
-
-flex-flow: row;
-flex-wrap: nowrap;
-align-items: center;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	align-items: center;
 }

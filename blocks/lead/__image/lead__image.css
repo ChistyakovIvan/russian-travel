@@ -1,7 +1,7 @@
 .lead__image {
 	width: 100%;
 	min-height: 200px;
-
+	display: block;
 	box-sizing: border-box;
 	background-repeat: no-repeat;
 	margin: 40px auto 0;
@@ -10,7 +10,6 @@
 @media screen and (min-width: 768px) {
 	.lead__image {
 		min-height: 480px;
-		max-width: 928px;
 	}
 }
 

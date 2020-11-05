@@ -3,29 +3,21 @@
 	min-height: 320px;
 	box-sizing: border-box;
 	align-items: center;
-
 }
 
 @media screen and (min-width: 768px) {
 	.place__image {
-
-    flex-basis: 340px;
-    max-width: 340px;
-    height: auto;
-    object-fit: cover;
-    box-sizing: border-box;
-
+		flex-basis: 340px;
+		max-width: 340px;
+		height: auto;
+		object-fit: cover;
+		box-sizing: border-box;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.place__image {
-
-    flex-basis: 440px;
-    max-width: 440px;
-    height: auto;
-    object-fit: cover;
-    box-sizing: border-box;
-
+		flex-basis: 440px;
+		max-width: 440px;
 	}
 }
