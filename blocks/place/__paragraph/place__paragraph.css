@@ -3,17 +3,12 @@
 	font-style: normal;
 	font-size: 16px;
 	line-height: 26px;
-	margin: 0;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
-@media screen and (min-width: 768px) {
-	.place__paragraph {
-		margin-bottom: 25px;
-	}
-
-	.place__paragraph:last-of-type {
-		margin: 0;
-	}
+.place__paragraph:last-of-type {
+  margin: 0;
 }
 
 @media screen and (min-width: 1024px) {

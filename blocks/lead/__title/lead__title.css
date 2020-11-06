@@ -3,7 +3,7 @@
 	font-size: 40px;
 	line-height: 44px;
 	text-align: center;
-	margin: 56px auto 0;
+	margin: 48px auto 0;
 	max-width: 720px;
 }
 
@@ -14,8 +14,8 @@
 		line-height: 100px;
 	}
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
 	.lead__title {
-		margin: 48px auto 0;
+		margin: 56px auto 0;
 	}
 }
