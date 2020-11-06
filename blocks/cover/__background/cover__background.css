@@ -28,7 +28,6 @@
 @media screen and (min-width: 1280px) {
 	.cover__background {
 		margin: 0 auto;
-		justify-content: center;
 		max-width: 1184px;
 		min-height: 740px;
 	}

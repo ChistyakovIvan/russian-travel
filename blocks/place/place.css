@@ -1,4 +1,26 @@
 .place {
-	margin-top: 49px;
 	max-width: 984px;
+	margin-top: 49px;
+}
+
+.place:first-of-type {
+	margin-top: 0;
+}
+
+@media (min-width: 768px) {
+	.place {
+		margin-top: 73px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.place {
+		margin-top: 80px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.place {
+		margin-top: 74px;
+	}
 }

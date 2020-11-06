@@ -9,17 +9,17 @@
 
 @media screen and (min-width: 768px) {
 	.lead__caption {
-		margin: 8px 0 0 3.125vw;
+		margin: 8px 0 0 24px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.lead__caption {
-		margin: 8px 0 0 4.6875vw;
+		margin: 8px 0 0 0;
 	}
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
 	.lead__caption {
 		margin: 8px 0 0 11.5625vw;
 	}
@@ -29,4 +29,4 @@
 	.lead__caption {
 		margin: 8px 0 0 30.78125vw;
 	}
-}
+} */

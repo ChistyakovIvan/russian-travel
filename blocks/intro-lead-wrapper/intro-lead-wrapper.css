@@ -1,0 +1,14 @@
+.intro-lead-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 984px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+	.intro-lead-wrapper {
+		max-width: 928px;
+	}
+}

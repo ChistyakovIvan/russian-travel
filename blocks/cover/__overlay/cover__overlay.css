@@ -12,8 +12,3 @@
 	bottom: 0;
 	object-fit: cover;
 }
-
-.cover__overlay:hover {
-	opacity: 0.8;
-	cursor: pointer;
-}

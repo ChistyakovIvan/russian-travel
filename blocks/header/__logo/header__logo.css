@@ -3,6 +3,7 @@
 	width: 142px;
 	height: 42px;
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 @media screen and (min-width: 768px) {
