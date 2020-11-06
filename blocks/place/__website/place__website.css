@@ -5,7 +5,7 @@
 @media screen and (min-width: 768px) {
 	.place__website {
 		display: block;
-		margin-left: 28px;
+		margin-left: 32px;
 		align-self: flex-end;
 		flex-basis: 352px;
 	}

@@ -12,3 +12,8 @@
 		max-width: 928px;
 	}
 }
+@media screen and (min-width: 1280px) {
+	.intro-lead-wrapper {
+		max-width: 984px;
+	}
+}
